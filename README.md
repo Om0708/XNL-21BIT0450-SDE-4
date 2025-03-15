@@ -11,6 +11,7 @@ A full-fledged FinTech platform built using **React**, **Node.js**, **Express**,
 - [Performance Optimization](#performance-optimization)
 - [Security](#Security)
 - [Reliability](#Reliability)
+- [Scalability](#Scalability)
 
 ##  Features
 
@@ -68,3 +69,14 @@ A full-fledged FinTech platform built using **React**, **Node.js**, **Express**,
     - MongoDB is set up for high availability with replica sets.
 - Crash Recovery: Server is built with proper try/catch flows and service fallbacks.
 - Consistent Uptime: Project is easily deployable on uptime-monitored platforms like Railway, Render, or GCP App Engine.
+
+
+##  Scalability
+
+- Horizontal Scaling: Microservice-friendly backend architecture allows horizontal scaling through containerization (Docker-ready).
+- Load Balancing Ready: The backend API supports integration with load balancers like NGINX or cloud-native tools (e.g., AWS ALB).
+- Database Sharding & Partitioning:
+     - MongoDB supports horizontal sharding for high-volume transactional data.
+     - PostgreSQL schema is normalized for efficient scaling with partitioned tables.
+- Stateless Backend: Express APIs are stateless and scalable across multiple server instances or containers.
+- Cloud Integration: Compatible with GCP, AWS, or Render for distributed deployment.
